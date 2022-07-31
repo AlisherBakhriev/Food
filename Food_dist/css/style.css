@@ -298,7 +298,7 @@ a {
 }
 
 .offer__slider {
-    width: 650px;
+    width: 650px ;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -330,7 +330,7 @@ a {
 }
 
 .offer__slider #current {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     color: #000
 }
@@ -550,30 +550,7 @@ a {
     padding: 0 20px;
     outline: 0
 }
-.invalid2{
-    border: 2px solid red;
-    width: 280px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    border: none;
-    font-size: 18px;
-    text-align: center;
-    padding: 0 20px;
-    outline: 0
-}
-.valid{
-    border: 2px solid green;
-    width: 280px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    border: none;
-    font-size: 18px;
-    text-align: center;
-    padding: 0 20px;
-    outline: 0
-}
+
 
 .promotion {
     padding: 70px 0 240px 0;
@@ -678,7 +655,7 @@ a {
     top: 0;
     left: 0;
     z-index: 1050;
-    /* display:none; */
+    display:none;
     width: 100%;
     height: 100%;
     /* overflow: hidden; */
@@ -727,18 +704,22 @@ a {
     text-transform: uppercase
 }
 
-.modal__input {
+input {
     display: block;
     margin: 20px auto 20px auto;
     width: 280px;
     height: 50px;
     background: #fff;
     box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    border: none;
+    /* border: none; */
     font-size: 18px;
     text-align: center;
     padding: 0 20px;
     outline: 0
+}
+
+input {
+border: none;
 }
 
 .modal .btn {
@@ -759,35 +740,14 @@ a {
     animation-name: fade;
     animation-duration: 1.5s;
 }
-.invalid {
+ .invalid {
 	border: 2px solid red;
-    display: block;
-    margin: 20px auto 20px auto;
-    width: 280px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    border: none;
-    font-size: 18px;
-    text-align: center;
-    padding: 0 20px;
-    outline: 0
-}
+
+ }
 
 .valid {
 	border: 2px solid green;
-    display: block;
-    margin: 20px auto 20px auto;
-    width: 280px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    /* border: none; */
-    font-size: 18px;
-    text-align: center;
-    padding: 0 20px;
-    outline: 0
-}
+} 
 
 @keyframes fade {
     from {
@@ -798,3 +758,52 @@ a {
         opacity: 1;
     }
 }
+
+.swiper {
+    width: 100%;
+    height: 390px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
